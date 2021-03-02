@@ -1,0 +1,12 @@
+//構文
+string s;
+s = std::to_string(100);
+
+//数値を文字列に変換したいときに使用した。
+ABC136 B 
+  for(int i = 0; i <= n; i++){
+    string sum = to_string(i);
+    if(sum.size() %2 == 1){
+      cnt++;
+    } 
+  }
